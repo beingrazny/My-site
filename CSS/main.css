@@ -1,0 +1,177 @@
+body {
+    font-family: Sans-serif;
+}
+
+img {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+}
+
+.fa {
+    padding: 5px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 1px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-instagram {
+    background: #eb0303;
+    color: white;
+}
+
+.fa-pinterest {
+    background: #cb2027;
+    color: white;
+}
+
+.button {
+    border: none;
+    padding: 5px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.btn {
+    background-color: white;
+    border: 2px solid #275f72;
+}
+
+.btn:hover {
+    background-color: #275f72;
+}
+
+table {
+    width: 50%;
+}
+
+.left ul li {
+    padding-bottom: 0.2rem;
+    border-left: 2px solid #535353;
+    padding-left: 5px;
+    margin-left: 1px;
+}
+
+.split {
+    width: 50%;
+    z-index: 1;
+    top: auto;
+    overflow-x: hidden;
+    position: absolute;
+}
+
+.left {
+    left: 0;
+}
+
+.right {
+    right: 0;
+}
+
+.checked {
+    color: orange;
+}
+
+.container {
+    width: 75%;
+    background-color: #ddd;
+}
+
+.skills {
+    text-align: right;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: white;
+}
+
+.photoshop {
+    width: 90%;
+    background-color: #04AA6D;
+}
+
+.indesign {
+    width: 70%;
+    background-color: #2196F3;
+}
+
+.XD {
+    width: 65%;
+    background-color: #f44336;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    text-align: center;
+    font-size: 12px;
+    margin: 4px 2px;
+    width: 100px;
+    height: 30px;
+}
+
+.container1 {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+footer {
+    font-size: 13px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333333;
+    color: white;
+    text-align: center;
+}
